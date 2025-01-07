@@ -4,6 +4,9 @@ import One from './pages/welcome.tsx'
 import Two from './pages/accomodation.tsx'
 import videoFile from './assets/v.mp4'
 import { useEffect, useState } from 'react';
+import Swimming from './pages/swimming.tsx';
+import Dining from './pages/dining.tsx';
+import Gallary from './pages/two.tsx';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -28,7 +31,7 @@ function App() {
   useEffect(() => {
     // Listen to the scroll event when the component mounts
     window.addEventListener("scroll", handleScroll);
-    
+
     // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -48,11 +51,11 @@ function App() {
 
         <video
           className="w-full h-screen object-cover"
-          autoPlay={true} 
-          loop={true}     
+          autoPlay={true}
+          loop={true}
           muted={true}
-          controls={false} 
-        
+          controls={false}
+
         >
 
           <source src={videoFile} type="video/mp4" />
@@ -63,9 +66,8 @@ function App() {
       <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-50"></div>
 
       {/* Navbar */}
-      <nav className={`fixed   top-0 left-0 w-full  text-white py-4 z-10 ${
-            isFixed ? "bg-black text-white" : "bg-transparent text-white"
-          } `}>
+      <nav className={`fixed   top-0 left-0 w-full  text-white py-4 z-10 ${isFixed ? "bg-black text-white" : "bg-transparent text-white"
+        } `}>
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
           {/* Logo or Website Title */}
           <div className="text-2xl font-bold">Maria</div>
@@ -97,11 +99,11 @@ function App() {
           </div>
         </div>
       </nav>
-      
+
       <div className="absolute top-0 left-0 w-full  h-screen flex flex-col items-center justify-center text-white px-4">
         {/* Title */}
         <div className="md:text-9xl text-7xl font-bold mb-4">
-         <span className='md:text-5xl text-3xl'>Hotel </span> Marina
+          <span className='md:text-5xl text-3xl'>Hotel </span> Marina
         </div>
         {/* Caption */}
         <div className="text-xl font-light">
@@ -109,12 +111,26 @@ function App() {
         </div>
       </div>
 
-       <div className='m-5'>
-       <One/>
-       </div>
-       <div className='m-5'>
-       <Two/>
-       </div>
+      <div className='m-5'>
+        <One />
+      </div>
+
+
+      <div className='m-5'>
+        <Two />
+      </div>
+      <div className='m-5'>
+        <Dining />
+      </div>
+      <div className='m-5'>
+        <Swimming />
+      </div>
+
+      <Gallary />
+      <div className='m-5'>
+        <Swimming />
+      </div>
+
     </div>
 
 
