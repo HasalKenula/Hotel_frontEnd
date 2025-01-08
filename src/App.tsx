@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Swimming from './pages/swimming.tsx';
 import Dining from './pages/dining.tsx';
 import Gallary from './pages/two.tsx';
+import Facilities from './pages/facilities.tsx';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -128,7 +129,7 @@ function App() {
 
       <Gallary />
       <div className='m-5'>
-        <Swimming />
+        <Facilities />
       </div>
 
     </div>
