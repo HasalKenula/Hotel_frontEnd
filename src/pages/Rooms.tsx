@@ -3,15 +3,16 @@ import Facilities from "./facilities.tsx";
 import Swimming from "./swimming.tsx";
 import One from './welcome.tsx'
 import Two from './accomodation.tsx'
-import videoFile from '../assets/v.mp4'
+import Single from '../assets/double.jpg'
 import { useEffect, useState } from 'react';
 import Gallary from './two.tsx';
 import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
+import RoomDetails from "./RoomDetails.tsx";
 
 
 
-function Home() {
+function Rooms(){
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Toggle mobile menu visibility
@@ -46,18 +47,7 @@ function Home() {
     <div>
       <div className="relative w-full h-screen overflow-hidden">
 
-        <video
-          className="w-full h-screen object-cover"
-          autoPlay={true}
-          loop={true}
-          muted={true}
-          controls={false}
-
-        >
-
-          <source src={videoFile} type="video/mp4" />
-
-        </video>
+      <img src={Single} className="object-cover w-full h-full" alt="Double room" />
 
       </div>
       <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-50"></div>
@@ -108,29 +98,10 @@ function Home() {
         </div>
       </div>
 
+      
       <div className='m-5'>
-        <One />
+        <RoomDetails />
       </div>
-      <div className='m-5'>
-        <Two />
-      </div>
-      <div className='m-5'>
-        <Dining />
-      </div>
-      <div className='m-5'>
-        <Swimming />
-      </div>
-      <Gallary />
-      <div className='m-5'>
-        <Facilities />
-      </div>
-      <div className='m-5'>
-        <Comment />
-      </div>
-      <div className='m-5'>
-        <Footer />
-      </div>
-
 
     </div>
 
@@ -139,4 +110,4 @@ function Home() {
 }
 
 
-export default Home;
+export default Rooms;

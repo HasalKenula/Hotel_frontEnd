@@ -4,6 +4,7 @@ import './App.css'
 import Home from './pages/home.tsx'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Rooms from './pages/Rooms.tsx';
 
 function App() {
   return(
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           
             <Route path="/" element={<Home />} />
-            
+            <Route path="/room" element={<Rooms />} />
           
 
           

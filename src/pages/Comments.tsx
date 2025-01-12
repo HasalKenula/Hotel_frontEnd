@@ -3,7 +3,7 @@ import HalfRating from './one';
 
 function Comments() {
     return (
-        <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1330px] md:h-[1300px] m-auto  bg-yellow-200">
+        <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1400px] md:h-[1300px] m-auto  bg-yellow-200">
 
             <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl">
                 <p>Our Satisfied Guests says</p>
