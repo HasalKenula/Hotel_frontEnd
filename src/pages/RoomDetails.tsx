@@ -4,11 +4,15 @@ import Double from '../assets/double.jpg'
 import Single from '../assets/single.jpg'
 import Honeymoon from '../assets/honeymoon.jpg'
 import Economy from '../assets/economy.jpg'
+import Booking from './Booking'
+import { Icon } from "@iconify/react";
+import Footer from './Footer'
+
 
 function RoomDetails() {
     return (
         <div>
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1150px] m-auto bg-yellow-100">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1150px] m-auto ">
 
 
                 <div className="lg:w-1/2 m-10">
@@ -38,7 +42,7 @@ function RoomDetails() {
                             <li>Air conditioning with adjustable climate control</li>
                             <li>In-room safe for secure storage</li>
                             <li>Coffee and tea making facilities</li>
-                         
+
                         </ul>
                     </div>
                     <p>Enjoy the ultimate comfort and convenience in our Double Deluxe Room, where every detail is tailored for your satisfaction.</p>
@@ -54,7 +58,7 @@ function RoomDetails() {
 
 
 
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto bg-blue-100">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto ">
 
 
 
@@ -104,7 +108,7 @@ function RoomDetails() {
 
 
 
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto bg-yellow-100">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto ">
 
 
                 <div className="lg:w-1/2 m-10">
@@ -134,7 +138,7 @@ function RoomDetails() {
                             <li>Air conditioning</li>
                             <li>Mini-bar and coffee/tea maker</li>
                             <li>Private balcony with stunning views</li>
-                            
+
                         </ul>
                     </div>
                     <p> Escape to the Honeymoon Suite for a truly unforgettable experience, where comfort and romance come together seamlessly.</p>
@@ -148,7 +152,7 @@ function RoomDetails() {
 
 
 
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1050px] m-auto bg-blue-100">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1050px] m-auto ">
 
 
 
@@ -191,6 +195,41 @@ function RoomDetails() {
 
             </div>
 
+
+
+
+
+
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1250px] m-auto  aligns-items">
+
+                <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-black rounded-lg lg:h-3/3 m-0 lg:ml-8 p-3 flex flex-col items-center justify-center ">
+                    <div className='m-4 text-6xl font-bold text-blue-400'>
+                        Hotel Booking
+                    </div>
+
+
+
+
+                    <p className='text-slate-500'>Experience something new every moment</p>
+
+
+                    <Icon icon="material-symbols:double-arrow" width="400px" height="400px" color="#60a5fa" className="animate-pulse " />
+
+                </div>
+
+
+                <div className="lg:w-1/2 lg:p-5  relative w-full rounded-lg lg:h-3/3 m-0 lg:mr-8 p-3 flex justify-center">
+
+
+                    <Booking />
+
+                </div>
+
+            </div>
+
+            <div className='m-0 p-0'>
+                <Footer />
+            </div>
 
 
 

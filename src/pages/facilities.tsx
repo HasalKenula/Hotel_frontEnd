@@ -26,7 +26,7 @@ function Facilities() {
                         </div>
                     </div>
                     <div className="flex justify-center  text-white m-auto lg:leading-8 lg:pt-8">
-                        <p>"Our hotel’s restaurant offers a variety of gourmet dishes in a elegant setting. Enjoy  international and local flavors, with room service available for added convenience."</p>
+                        <p>"Our hotels restaurant offers a variety of gourmet dishes in a elegant setting. Enjoy  international and local flavors, with room service available for added convenience."</p>
 
                     </div>
 

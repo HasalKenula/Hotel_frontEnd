@@ -3,16 +3,16 @@ import Facilities from "./facilities.tsx";
 import Swimming from "./swimming.tsx";
 import One from './welcome.tsx'
 import Two from './accomodation.tsx'
-import Single from '../assets/double.jpg'
+import videoFile from '../assets/v.mp4'
 import { useEffect, useState } from 'react';
 import Gallary from './two.tsx';
 import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
-import RoomDetails from "./RoomDetails.tsx";
+import Single from '../assets/single.jpg'
+import ContactForm from "./ContactForm.tsx";
 
 
-
-function Rooms() {
+function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Toggle mobile menu visibility
@@ -45,12 +45,13 @@ function Rooms() {
 
   return (
     <div>
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-[400px] overflow-hidden">
 
-        <img src={Single} className="object-cover w-full h-full" alt="Double room" />
+      <img src={Single} className="object-cover w-full h-full" alt="Double room" />
+
 
       </div>
-      <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-50"></div>
+      <div className="absolute top-0 left-0 w-full h-[400px] bg-black opacity-50"></div>
 
       {/* Navbar */}
       <nav className={`fixed   top-0 left-0 w-full  text-white py-4 z-10 ${isFixed ? "bg-black text-white" : "bg-transparent text-white"
@@ -87,7 +88,7 @@ function Rooms() {
         </div>
       </nav>
 
-      <div className="absolute top-0 left-0 w-full  h-screen flex flex-col items-center justify-center text-white px-4">
+      <div className="absolute top-0 left-0 w-full  h-[400px] flex flex-col items-center justify-center text-white px-4">
         {/* Title */}
         <div className="md:text-9xl text-7xl font-bold mb-4">
           <span className='md:text-5xl text-3xl'>Hotel </span> Marina
@@ -98,9 +99,8 @@ function Rooms() {
         </div>
       </div>
 
-
-
-      <RoomDetails />
+      
+        <ContactForm/>
 
 
     </div>
@@ -110,4 +110,4 @@ function Rooms() {
 }
 
 
-export default Rooms;
+export default Home;
