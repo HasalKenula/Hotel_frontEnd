@@ -14,7 +14,7 @@ function Booking(){
     const[email,setEmail]=useState<string>("");
 
     async function addbooking(){
-        await axios.post("http://localhost:8000/api/book",{
+        await axios.post("http://localhost:8000/api/booking",{
             name:name,
             checkIn:checkIn,
             checkOut:checkOut,

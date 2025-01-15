@@ -14,7 +14,7 @@ function SubContactForm(){
    
 
     async function send(){
-        await axios.post("http://localhost:8000/api/book",{
+        await axios.post("http://localhost:8000/api/contact",{
             name:name,
             message:message,
             subject:subject,
@@ -24,7 +24,7 @@ function SubContactForm(){
         setMessage("");
         setName("");
         setEmail("");
-        alert("your booking is successful")
+        alert("your contact is successful")
     }
 
    
@@ -58,7 +58,7 @@ function SubContactForm(){
            
 
             <label className="text-sm text-slate-600 block mb-3">Enter  Message</label>
-            <input type="text" className="block w-full p-2 border border-slate-300 rounded-lg text-slate-600 text-sm mb-4 " value={message}  onChange={handleMessage}/>
+            <textarea className="block w-full p-2 border border-slate-300 rounded-lg text-slate-600 text-sm mb-4 " value={message}  onChange={handleMessage}/>
 
             <label className="text-sm text-slate-600 block mb-3">Enter your name</label>
             <input type="text" className="block w-full p-2 border border-slate-300 rounded-lg text-slate-600 text-sm mb-4 " value={name}  onChange={handleName}/>

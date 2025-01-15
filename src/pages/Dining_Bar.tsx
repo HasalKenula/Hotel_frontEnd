@@ -8,11 +8,13 @@ import { useEffect, useState } from 'react';
 import Gallary from './two.tsx';
 import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
-import Single from '../assets/single.jpg'
+import MainMenue from '../assets/MainMenu.jpg'
 import ContactForm from "./ContactForm.tsx";
+import FullWidthTabs from "./MenuTab.tsx";
 
 
-function Contact() {
+
+function Dining_Bar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Toggle mobile menu visibility
@@ -47,7 +49,7 @@ function Contact() {
     <div>
       <div className="relative w-full h-[400px] overflow-hidden">
 
-      <img src={Single} className="object-cover w-full h-full" alt="Double room" />
+      <img src={MainMenue} className="object-cover w-full h-full" alt="Double room" />
 
 
       </div>
@@ -100,7 +102,7 @@ function Contact() {
       </div>
 
       
-        <ContactForm/>
+      <FullWidthTabs/>
 
 
     </div>
@@ -110,4 +112,4 @@ function Contact() {
 }
 
 
-export default Contact;
+export default Dining_Bar;
