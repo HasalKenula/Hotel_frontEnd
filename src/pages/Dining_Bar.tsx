@@ -104,7 +104,7 @@ function Dining_Bar() {
       
       <FullWidthTabs/>
 
-
+      <Footer/>
     </div>
 
 
