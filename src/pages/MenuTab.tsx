@@ -68,7 +68,7 @@ export default function FullWidthTabs() {
       <TabPanel value={value} index={0} dir={theme.direction}>
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -80,12 +80,12 @@ export default function FullWidthTabs() {
                 Meat, Potatoes, Rice, Tomatoe
               </div>
             </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+            <div className='w-3/12 m-auto md:pl-9  text-3xl  text-center font-bold text-blue-400'>
               $29
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -108,7 +108,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -125,51 +125,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -195,12 +151,8 @@ export default function FullWidthTabs() {
 
 
 
-
-
-
-
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -217,7 +169,55 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -243,7 +243,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -260,7 +260,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -290,7 +290,7 @@ export default function FullWidthTabs() {
       <TabPanel value={value} index={1} dir={theme.direction}>
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -307,7 +307,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -330,7 +330,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -347,51 +347,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -417,12 +373,8 @@ export default function FullWidthTabs() {
 
 
 
-
-
-
-
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -439,7 +391,55 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -465,7 +465,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -482,7 +482,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -509,7 +509,7 @@ export default function FullWidthTabs() {
       <TabPanel value={value} index={2} dir={theme.direction}>
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -526,7 +526,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -549,7 +549,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -566,51 +566,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-
-        </div>
-
-
-
-
-
-
-
-        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
-            <div className=' w-4/12 lg:pl-14 '>
-              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
-            </div>
-            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
-              <div className='lg:mb-4 md:mb-1 font-bold'>
-                Grilled Beef with potatoes
-              </div>
-              <div className=' text-sm  text-slate-600'>
-                Meat, Potatoes, Rice, Tomatoe
-              </div>
-            </div>
-            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
-              $29
-            </div>
-          </div>
-
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -636,12 +592,8 @@ export default function FullWidthTabs() {
 
 
 
-
-
-
-
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -658,7 +610,55 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+            <div className=' w-4/12 lg:pl-14 '>
+              <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
+            </div>
+            <div className='w-5/12 flex flex-col items-center justify-center align-items '>
+              <div className='lg:mb-4 md:mb-1 font-bold'>
+                Grilled Beef with potatoes
+              </div>
+              <div className=' text-sm  text-slate-600'>
+                Meat, Potatoes, Rice, Tomatoe
+              </div>
+            </div>
+            <div className='w-3/12 m-auto md:pl-9 text-3xl  text-center font-bold text-blue-400'>
+              $29
+            </div>
+          </div>
+
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -684,7 +684,7 @@ export default function FullWidthTabs() {
 
 
         <div className='flex md:flex-row  item-centers bg-green-200  overflow-hidden flex-col lg:pl-20 lg:pr-20'>
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>
@@ -701,7 +701,7 @@ export default function FullWidthTabs() {
             </div>
           </div>
 
-          <div className='md:w-1/2 flex h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
+          <div className='md:w-1/2 flex min:h-[96px]   p-2 m-2 border  shadow-2xl bg-green-200   '>
             <div className=' w-4/12 lg:pl-14 '>
               <img src={Double} className="w-20  h-20 object-cover rounded-full " alt="Double room" />
             </div>

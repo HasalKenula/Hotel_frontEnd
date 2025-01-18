@@ -4,7 +4,7 @@ import Welcome1 from '../assets/welcome1.jpg'
 function Welcome() {
     return (
 
-        <div className=" lg:bg-opacity-90 lg:bg-black lg:flex justify-center items-center w-full lg:h-[700px] md:h-[980px] h-[900px] m-auto ">
+        <div className=" lg:bg-opacity-90 lg:bg-black lg:flex justify-center items-center w-full lg:h-[700px] md:h-[980px] min:h-[950px] m-auto bg-green-200">
 
             <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-black rounded-lg lg:h-2/3 m-0 lg:ml-8 p-3">
 
