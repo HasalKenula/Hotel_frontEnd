@@ -1,16 +1,18 @@
-import Double from '../assets/double.jpg'
+import Man1 from '../assets/man1.jpg'
+import Man2 from '../assets/man2.jpg'
+import Woman1 from '../assets/woman1.jpg'
 import HalfRating from './one';
 
 function Comments() {
     return (
-        <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1400px] md:h-[1300px] m-auto  bg-yellow-200">
+        <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1500px] md:h-[1300px] m-auto ">
 
-            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl">
+            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl text-center">
                 <p>Our Satisfied Guests says</p>
 
             </div>
 
-            <div className="text-slate-500 lg:mb-16 mb-8">
+            <div className="text-slate-500 lg:mb-16 md:mb-8 mb-4 text-center">
                 <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
 
@@ -18,7 +20,7 @@ function Comments() {
                 <div className="lg:w-1/3 p-4  lg:mr-8  rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto  lg:border-0 border-2 lg:shadow-2xl shadow-xl ">
                     <div className="h-2/5  rounded-3xl flex  justify-center items-center ">
                         <img
-                            src={Double}
+                            src={Man1}
                             className="object-cover w-32 h-32 rounded-full"
                             alt="Double room"
                         />
@@ -43,7 +45,7 @@ function Comments() {
                 <div className="lg:w-1/3 p-4 lg:mr-8  rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto lg:border-0 border-2 lg:shadow-2xl shadow-xl">
                     <div className="h-2/5 rounded-3xl flex  justify-center items-center ">
                         <img
-                            src={Double}
+                            src={Woman1}
                             className="object-cover w-32 h-32 rounded-full"
                             alt="Double room"
                         />
@@ -70,7 +72,7 @@ function Comments() {
                <div className="lg:w-1/3 p-4  lg:mr-8  rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto  lg:border-0 border-2 lg:shadow-2xl shadow-xl">
                     <div className="h-2/5 rounded-3xl flex  justify-center items-center ">
                         <img
-                            src={Double}
+                            src={Man2}
                             className="object-cover w-32 h-32 rounded-full"
                             alt="Double room"
                         />

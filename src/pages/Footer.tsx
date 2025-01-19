@@ -2,7 +2,7 @@ import Single from '../assets/single.jpg'
 import { Icon } from "@iconify/react";
 function Footer() {
     return (
-        <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1450px] md:h-[1500px] m-auto bg-opacity-90 bg-black">
+        <div className="flex flex-col justify-center items-center w-full lg:h-[550px] h-[1450px] md:h-[1500px] m-auto bg-opacity-90 bg-black">
 
 
 
@@ -95,12 +95,12 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center m-2 mt-4">
+                    {/* <div className="flex justify-center m-2 mt-4">
                         <button className="bg-blue-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
                             Contact Now
                         </button>
 
-                    </div>
+                    </div> */}
                 </div>
 
 

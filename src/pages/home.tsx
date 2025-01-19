@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import Gallary from './two.tsx';
 import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
+import { Link } from "react-router-dom";
 
 
 
@@ -71,10 +72,11 @@ function Home() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-4">
-            <a href="#" className="hover:text-gray-400">Home</a>
-            <a href="#" className="hover:text-gray-400">About</a>
-            <a href="#" className="hover:text-gray-400">Services</a>
-            <a href="#" className="hover:text-gray-400">Contact</a>
+            <Link to="/" className="hover:text-gray-400">Home</Link>
+            <Link to="/about" className="hover:text-gray-400">About</Link>
+            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
+            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
+            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
           </div>
 
           {/* Hamburger Icon for Mobile */}
@@ -82,17 +84,18 @@ function Home() {
             className="md:hidden text-2xl"
             onClick={toggleMenu}
           >
-            {isMenuOpen ? "×" : "☰"} {/* Toggle between '☰' and '×' */}
+            {isMenuOpen ? "->" : "☰"} {/* Toggle between '☰' and '×' */}
           </button>
         </div>
 
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white`}>
           <div className="flex flex-col items-center py-4 space-y-4">
-            <a href="#" className="hover:text-gray-400">Home</a>
-            <a href="#" className="hover:text-gray-400">About</a>
-            <a href="#" className="hover:text-gray-400">Services</a>
-            <a href="#" className="hover:text-gray-400">Contact</a>
+            <Link to="/" className="hover:text-gray-400">Home</Link>
+            <Link to="/about" className="hover:text-gray-400">About</Link>
+            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
+            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
+            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
           </div>
         </div>
       </nav>
@@ -127,9 +130,9 @@ function Home() {
       <div className='m-5'>
         <Comment />
       </div>
-      <div className='m-5'>
+      
         <Footer />
-      </div>
+      
 
 
     </div>

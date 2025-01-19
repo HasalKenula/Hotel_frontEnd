@@ -1,16 +1,17 @@
-import Welcome1 from '../assets/welcome1.jpg'
-
+import Reception from '../assets/reception.jpg'
+import { fadeIn } from '../types/FadeIn';
+import { motion } from 'framer-motion';
 
 function Welcome() {
     return (
 
-        <div className=" lg:bg-opacity-90 lg:bg-black lg:flex justify-center items-center w-full lg:h-[700px] md:h-[980px] min:h-[950px] m-auto bg-green-200">
+        <div className=" lg:bg-opacity-90  lg:flex justify-center items-center w-full lg:h-[600px] md:h-[980px] min:h-[950px] m-auto ">
 
-            <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-black rounded-lg lg:h-2/3 m-0 lg:ml-8 p-3">
+            <div className="lg:w-1/2 lg:p-5  relative w-full  rounded-lg lg:h-2/3 m-0 lg:ml-8 p-3">
 
                 {/* <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">Our Hotel</div> */}
-                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Welcome To  Hotel Marina</div>
-                <p className='text-white lg:leading-8'>
+                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 lg:pb-4">Welcome To  Hotel Marina</div>
+                <p className='lg:leading-6'>
                     Experience comfort and luxury like never before. Nestled in the heart of Matara,
                     our hotel offers a perfect blend of modern amenities and personalized service.
                     Whether you're visiting for business or leisure, we provide a range of elegantly
@@ -31,11 +32,19 @@ function Welcome() {
 
 
             <div className="lg:w-1/2 m-10">
-                <img
-                    src={Welcome1}
-                    alt="Hotel Welcome"
-                    className="w-full md:h-[600px] h-[250px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
-                />
+                 <motion.div
+                    variants={fadeIn("right", 0.2)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{ once: false, amount: 0.2 }}
+
+                > 
+                    <img
+                        src={Reception}
+                        alt="Hotel Welcome"
+                        className="w-full lg:h-[500px] md:h-[600px] h-[250px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                    />
+                 </motion.div> 
             </div>
 
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Footer from "./Footer.tsx";
 import Single from '../assets/single.jpg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -55,10 +56,11 @@ function AboutUs() {
 
                         {/* Desktop Menu */}
                         <div className="hidden md:flex space-x-4">
-                            <a href="#" className="hover:text-gray-400">Home</a>
-                            <a href="#" className="hover:text-gray-400">About</a>
-                            <a href="#" className="hover:text-gray-400">Services</a>
-                            <a href="#" className="hover:text-gray-400">Contact</a>
+                            <Link to="/" className="hover:text-gray-400">Home</Link>
+                            <Link to="/about" className="hover:text-gray-400">About</Link>
+                            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
+                            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
+                            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
                         </div>
 
                         {/* Hamburger Icon for Mobile */}
@@ -66,17 +68,18 @@ function AboutUs() {
                             className="md:hidden text-2xl"
                             onClick={toggleMenu}
                         >
-                            {isMenuOpen ? "×" : "☰"} {/* Toggle between '☰' and '×' */}
+                            {isMenuOpen ? "->" : "☰"} {/* Toggle between '☰' and '×' */}
                         </button>
                     </div>
 
                     {/* Mobile Menu */}
                     <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white`}>
                         <div className="flex flex-col items-center py-4 space-y-4">
-                            <a href="#" className="hover:text-gray-400">Home</a>
-                            <a href="#" className="hover:text-gray-400">About</a>
-                            <a href="#" className="hover:text-gray-400">Services</a>
-                            <a href="#" className="hover:text-gray-400">Contact</a>
+                            <Link to="/" className="hover:text-gray-400">Home</Link>
+                            <Link to="/about" className="hover:text-gray-400">About</Link>
+                            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
+                            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
+                            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
                         </div>
                     </div>
                 </nav>
@@ -182,7 +185,7 @@ function AboutUs() {
                             <p> Michelle Aguilar</p>
 
                         </div>
-                       
+
                         <div className="flex justify-center text-center">
                             Michelle Aguilar leads Hotel Marina with a passion for exceptional
                             hospitality and over 17 years of industry experience. Dedicated
@@ -202,7 +205,7 @@ function AboutUs() {
                             />
 
                         </div>
-                        
+
                         <div className="flex justify-center m-1 font-bold text-slate-500">
                             <p>Assistant General Manager</p>
                         </div>
@@ -234,7 +237,7 @@ function AboutUs() {
                             />
 
                         </div>
-                       
+
                         <div className="flex justify-center m-1 font-bold text-slate-500">
                             <p>Front Office Manager</p>
                         </div>
@@ -258,7 +261,7 @@ function AboutUs() {
 
                 </div>
             </div>
-            <Footer/>
+            <Footer />
 
 
         </div>
