@@ -12,14 +12,14 @@ import Footer from './Footer'
 function RoomDetails() {
     return (
         <div>
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1150px] m-auto ">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1050px] m-auto  ">
 
 
-                <div className="lg:w-1/2 m-10">
+                <div className="lg:w-1/2 m-10  ">
                     <img
                         src={Double}
                         alt="Hotel Welcome"
-                        className="w-full md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                        className="w-full lg:h-[400px] md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
                 </div>
 
@@ -58,7 +58,7 @@ function RoomDetails() {
 
 
 
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto ">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto  ">
 
 
 
@@ -95,7 +95,7 @@ function RoomDetails() {
                     <img
                         src={Single}
                         alt="Hotel Welcome"
-                        className="w-full md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                        className="w-full lg:h-[400px] md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
                 </div>
 
@@ -111,11 +111,11 @@ function RoomDetails() {
             <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[950px] m-auto ">
 
 
-                <div className="lg:w-1/2 m-10">
+                <div className="lg:w-1/2 lg:m-10 ml-10 mr-10 mb-10">
                     <img
                         src={Honeymoon}
                         alt="Hotel Welcome"
-                        className="w-full md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                        className="w-full lg:h-[400px] md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
                 </div>
 
@@ -189,7 +189,7 @@ function RoomDetails() {
                     <img
                         src={Economy}
                         alt="Hotel Welcome"
-                        className="w-full md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                        className="w-full lg:h-[400px] md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
                 </div>
 
