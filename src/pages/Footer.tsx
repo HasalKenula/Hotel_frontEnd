@@ -1,5 +1,13 @@
-import Single from '../assets/single.jpg'
 import { Icon } from "@iconify/react";
+import Activity1 from '../assets/activity1.jpg';
+import Activity2 from '../assets/activity2.jpg';
+import Activity4 from '../assets/activity4.jpg';
+import Activity6 from '../assets/activity6.jpg';
+import Activity7 from '../assets/activity7.jpg';
+import Activity9 from '../assets/activity9.jpg';
+import Activity10 from '../assets/activity10.jpg';
+import Activity11 from '../assets/activity11.jpg';
+
 function Footer() {
     return (
         <div className="flex flex-col justify-center items-center w-full lg:h-[550px] h-[1450px] md:h-[1500px] m-auto bg-opacity-90 bg-black">
@@ -112,32 +120,32 @@ function Footer() {
                     </div>
                     <div className="flex flex-col justify-center  m-2 lg:m-8">
                         <div className='flex  justify-center  lg:flex-wrap gap-4   m-2'>
-                            <div className="h-2/5 w-2/5">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                            <div className="h-2/5 w-2/5 ">
+                                <img src={Activity9} className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5 ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity7}  className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity1}  className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5 ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity10}  className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                         </div>
 
                         <div className='flex  justify-center  lg:flex-wrap gap-4  m-2'>
                             <div className="h-2/5 w-2/5 ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity11} className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5 ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity6} className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5 ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity4} className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                             <div className="h-2/5 w-2/5   ">
-                                <img src={Single} className="object-cover w-full h-full " alt="Double room" />
+                                <img src={Activity2} className='w-[100px] h-[50px]' alt="activities" />
                             </div>
                         </div>
                     </div>
