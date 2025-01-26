@@ -28,10 +28,11 @@ function Accomodation() {
                         <p>$250/night</p>
                     </div>
                     <div className="flex justify-center m-2">
-                        <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                            Book Now
-                        </button>
-
+                        <a href='/room'>
+                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                                Book Now
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -48,10 +49,11 @@ function Accomodation() {
                         <p> $200/night</p>
                     </div>
                     <div className="flex justify-center m-2">
-                        <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                            Book Now
-                        </button>
-
+                        <a href='/room'>
+                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                                Book Now
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -67,10 +69,11 @@ function Accomodation() {
                         <p>$750/night</p>
                     </div>
                     <div className="flex justify-center m-2">
-                        <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                            Book Now
-                        </button>
-
+                        <a href='/room'>
+                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                                Book Now
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -88,10 +91,11 @@ function Accomodation() {
                         <p>$200/night</p>
                     </div>
                     <div className="flex justify-center m-2">
-                        <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                            Book Now
-                        </button>
-
+                        <a href='/room'>
+                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                                Book Now
+                            </button>
+                        </a>
                     </div>
                 </div>
 

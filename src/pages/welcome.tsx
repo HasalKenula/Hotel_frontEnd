@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Reception from '../assets/reception.jpg'
 import { fadeIn } from '../types/FadeIn';
 import { motion } from 'framer-motion';
@@ -21,10 +22,11 @@ function Welcome() {
                     of your stay special, offering tailored experiences to meet your unique needs. Book your stay
                     with us and discover a welcoming atmosphere where comfort meets convenience.
                 </p>
-
-                <button className="bg-blue-400  text-white font-semibold mt-8 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                    Learn More
-                </button>
+                <a href='/about'>
+                    <button className="bg-blue-400  text-white font-semibold mt-8 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200" >
+                        Learn More
+                    </button>
+                </a>
 
             </div>
 
@@ -32,19 +34,19 @@ function Welcome() {
 
 
             <div className="lg:w-1/2 m-10">
-                 <motion.div
+                <motion.div
                     variants={fadeIn("right", 0.2)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.2 }}
 
-                > 
+                >
                     <img
                         src={Reception}
                         alt="Hotel Welcome"
                         className="w-full lg:h-[500px] md:h-[600px] h-[250px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
-                 </motion.div> 
+                </motion.div>
             </div>
 
 

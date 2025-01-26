@@ -12,7 +12,7 @@ function Dining() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.2 }}
-                    
+
                 >
                     <img
                         src={Table}
@@ -35,11 +35,11 @@ function Dining() {
                     cocktails, and non-alcoholic beverages to elevate your experience. Whether you're here for a casual meal
                     or a special occasion, our inviting atmosphere ensures a memorable time."
                 </p>
-
-                <button className="bg-blue-400  text-white font-semibold md:mt-12 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                    Learn More
-                </button>
-
+                <a href='/dining'>
+                    <button className="bg-blue-400  text-white font-semibold md:mt-12 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                        Learn More
+                    </button>
+                </a>
             </div>
 
         </div>

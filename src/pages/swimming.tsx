@@ -16,11 +16,11 @@ function Swimming() {
                     serene surroundings, our pool offers the perfect escape. Dive into
                     relaxation and enjoy a peaceful atmosphere that's ideal for both families and individuals alike."
                 </p>
-
-                <button className="bg-blue-400  text-white font-semibold md:mt-12 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                    Learn More
-                </button>
-
+                <a href='/about'>
+                    <button className="bg-blue-400  text-white font-semibold md:mt-12 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                        Learn More
+                    </button>
+                </a>
             </div>
 
 
