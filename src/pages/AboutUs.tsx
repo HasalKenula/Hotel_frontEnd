@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react';
 import Footer from "./Footer.tsx";
-import Single from '../assets/single.jpg'
+import About from '../assets/about_us.jpg'
+import History from '../assets/history.jpg'
+import Manager1 from '../assets/manager1.jpg'
+import Manager2 from '../assets/manager4.jpg'
+import Manager3 from '../assets/manager3.jpg'
 import { Link } from 'react-router-dom';
 
 
@@ -41,7 +45,7 @@ function AboutUs() {
             <div>
                 <div className="relative w-full h-[400px] overflow-hidden">
 
-                    <img src={Single} className="object-cover w-full h-full" alt="Double room" />
+                    <img src={About} className="object-cover w-full h-full" alt="Double room" />
 
 
                 </div>
@@ -52,15 +56,15 @@ function AboutUs() {
                     } `}>
                     <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
                         {/* Logo or Website Title */}
-                        <div className="text-2xl font-bold">Marina</div>
+                        <div className="text-2xl font-bold text-blue-400">Marina</div>
 
                         {/* Desktop Menu */}
                         <div className="hidden md:flex space-x-4">
-                            <Link to="/" className="hover:text-gray-400">Home</Link>
-                            <Link to="/about" className="hover:text-gray-400">About</Link>
-                            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
-                            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
-                            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+                            <a href="/" className="hover:text-blue-400">Home</a>
+                            <a href="/about" className="hover:text-blue-400">About</a>
+                            <a href="/room" className="hover:text-blue-400">Accomodation</a>
+                            <a href="/dining" className="hover:text-blue-400">Dining</a>
+                            <a href="/contact" className="hover:text-blue-400">Contact</a>
                         </div>
 
                         {/* Hamburger Icon for Mobile */}
@@ -75,11 +79,11 @@ function AboutUs() {
                     {/* Mobile Menu */}
                     <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white`}>
                         <div className="flex flex-col items-center py-4 space-y-4">
-                            <Link to="/" className="hover:text-gray-400">Home</Link>
-                            <Link to="/about" className="hover:text-gray-400">About</Link>
-                            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
-                            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
-                            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+                            <a href="/" className="hover:text-blue-400">Home</a>
+                            <a href="/about" className="hover:text-blue-400">About</a>
+                            <a href="/room" className="hover:text-blue-400">Accomodation</a>
+                            <a href="/dining" className="hover:text-blue-400">Dining</a>
+                            <a href="/contact" className="hover:text-blue-400">Contact</a>
                         </div>
                     </div>
                 </nav>
@@ -87,7 +91,7 @@ function AboutUs() {
                 <div className="absolute top-0 left-0 w-full  h-[400px] flex flex-col items-center justify-center text-white px-4">
                     {/* Title */}
                     <div className="md:text-9xl text-7xl font-bold mb-4">
-                        <span className='md:text-5xl text-3xl'>Hotel </span> Marina
+                        <span className='md:text-5xl text-3xl'>Hotel </span> About
                     </div>
                     {/* Caption */}
                     <div className="text-xl font-light">
@@ -99,14 +103,14 @@ function AboutUs() {
 
             </div>
 
-            <div className="lg:flex justify-center items-center w-full min-lg:h-[700px] min-md:h-[1000px] min-h-[850px] m-auto bg-green-200 ">
+            <div className="lg:flex justify-center items-center w-full min-lg:h-[700px] min-md:h-[1000px] min-h-[850px] m-auto">
 
 
                 <div className="lg:w-1/2 m-10">
                     <img
-                        src={Single}
+                        src={History}
                         alt="Hotel Welcome"
-                        className="w-full md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
+                        className="w-full lg:h-[400px] md:h-[600px] h-[300px] object-cover rounded-lg shadow-lg" // Ensures responsive, scalable image
                     />
                 </div>
 
@@ -114,8 +118,8 @@ function AboutUs() {
 
                 <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-slate-100  rounded-lg min-lg:h-2/3 m-0 lg:mr-8 p-3">
 
-                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">Stay with our luxury rooms</div>
-                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 ">Our Story</div>
+                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">Stay with our luxury rooms</div>
+                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Our Story</div>
                     <p className="mb-4">
                         Welcome to Hotel Marina, a destination where tradition meets modern elegance.
                         Established in 2000, our hotel has been a cornerstone of Colombo 07,
@@ -136,16 +140,12 @@ function AboutUs() {
                         Today, Hotel Marina continues to blend its rich heritage with modern amenities,
                         offering guests the perfect balance of comfort, style, and personalized service. Whether you're
                         here for business or leisure, our commitment to hospitality ensures that every stay is memorable.
+                        We invite you to become part of our story.
                     </p>
 
-                    <p className="mb-2">
-                        We invite you to become part of our story. Stay with us and experience the legacy
-                        of Hotel Marina—where history, elegance, and excellence converge.
-                    </p>
 
-                    <button className="bg-blue-400  text-white font-semibold mt-12 py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
-                        Learn More
-                    </button>
+
+
 
                 </div>
 
@@ -157,11 +157,11 @@ function AboutUs() {
             <div className="flex flex-col justify-center items-center w-full lg:h-[900px] md:h-[1400px] min-h-[900px]  m-auto  bg-slate-100">
 
 
-                <div className="text-slate-500 lg:mb-4 mb-2 font-bold">
+                <div className="text-slate-500 lg:mb-4 mb-2 font-bold playfair-display-uniquifier">
                     <p>OUR KIND STAFF</p>
                 </div>
 
-                <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl">
+                <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl playfair-display-uniquifier">
                     <p>Our Staff</p>
 
                 </div>
@@ -170,18 +170,18 @@ function AboutUs() {
                     <div className="lg:w-1/3 p-4  lg:mr-8  md:rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto  lg:border-0 md:border-2 lg:shadow-2xl md:shadow-xl ">
                         <div className="h-2/5  rounded-3xl flex  justify-center items-center ">
                             <img
-                                src={Single}
+                                src={Manager1}
                                 className="object-cover w-32 h-32 rounded-full"
                                 alt="Double room"
                             />
 
                         </div>
 
-                        <div className="flex justify-center m-1 font-bold text-slate-500">
+                        <div className="flex justify-center m-1 font-bold text-slate-500 playfair-display-uniquifier">
                             <p>General Manager</p>
                         </div>
 
-                        <div className="flex font-bold justify-center m-1 text-2xl text-blue-400">
+                        <div className="flex font-bold justify-center m-1 text-2xl text-blue-400 playfair-display-uniquifier">
                             <p> Michelle Aguilar</p>
 
                         </div>
@@ -199,18 +199,18 @@ function AboutUs() {
                     <div className="lg:w-1/3 p-4 lg:mr-8  md:rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto lg:border-0 md:border-2 lg:shadow-2xl md:shadow-xl">
                         <div className="h-2/5 rounded-3xl flex  justify-center items-center ">
                             <img
-                                src={Single}
+                                src={Manager2}
                                 className="object-cover w-32 h-32 rounded-full"
                                 alt="Double room"
                             />
 
                         </div>
 
-                        <div className="flex justify-center m-1 font-bold text-slate-500">
+                        <div className="flex justify-center m-1 font-bold text-slate-500 playfair-display-uniquifier">
                             <p>Assistant General Manager</p>
                         </div>
 
-                        <div className="flex font-bold justify-center m-1  text-2xl text-blue-400">
+                        <div className="flex font-bold justify-center m-1  text-2xl text-blue-400 playfair-display-uniquifier">
                             <p>Chris Standworth</p>
 
                         </div>
@@ -231,18 +231,18 @@ function AboutUs() {
                     <div className="lg:w-1/3 p-4  lg:mr-8  md:rounded-3xl lg:ml-10 mt-5 md:w-4/6 lg:m-0 m-auto  lg:border-0 md:border-2 lg:shadow-2xl md:shadow-xl">
                         <div className="h-2/5 rounded-3xl flex  justify-center items-center ">
                             <img
-                                src={Single}
+                                src={Manager3}
                                 className="object-cover w-32 h-32 rounded-full"
                                 alt="Double room"
                             />
 
                         </div>
 
-                        <div className="flex justify-center m-1 font-bold text-slate-500">
+                        <div className="flex justify-center m-1 font-bold text-slate-500 playfair-display-uniquifier">
                             <p>Front Office Manager</p>
                         </div>
 
-                        <div className="flex font-bold justify-center m-1  text-2xl text-blue-400">
+                        <div className="flex font-bold justify-center m-1  text-2xl text-blue-400 playfair-display-uniquifier">
                             <p>Rob McDonald</p>
 
                         </div>

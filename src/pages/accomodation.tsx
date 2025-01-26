@@ -6,12 +6,12 @@ function Accomodation() {
     return (
         <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1800px] md:h-[2150px] m-auto ">
 
-            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl">
+            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl playfair-display-uniquifier">
                 <p>Hotel Accomodation</p>
 
             </div>
 
-            <div className="text-slate-500 mb-8">
+            <div className="text-slate-500 mb-8 playfair-display-uniquifier">
                 <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast,</p>
             </div>
 

@@ -27,12 +27,12 @@ function RoomDetails() {
 
                 <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-30 border-0 shadow-2xl bg-white rounded-lg lg:h-3/4 m-0 lg:mr-8 p-3">
 
-                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">$250/night</div>
-                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Double Deluxe Room</div>
+                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">$250/night</div>
+                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Double Deluxe Room</div>
                     <p >
                         Our Double Deluxe Room offers a spacious and elegant retreat for couples or friends. With a blend of modern luxury and comfort, this room is designed to provide a relaxing and memorable experience. Whether you're here for business or leisure, it's the perfect choice for a peaceful stay.
                     </p>
-                    <div className='text-2xl'>Facilities:</div>
+                    <div className='text-2xl playfair-display-uniquifier'>Facilities:</div>
                     <div className="space-y-4">
                         <ul className="list-disc pl-6">
                             <li>King-sized bed or two twin beds with premium linens</li>
@@ -66,12 +66,12 @@ function RoomDetails() {
 
                 <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-30 border-0 shadow-2xl bg-white rounded-lg lg:h-3/4 m-0 lg:ml-8 p-3 ">
 
-                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">$200/night</div>
-                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Single Deluxe Room</div>
+                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">$200/night</div>
+                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Single Deluxe Room</div>
                     <p >
                         Our Single Deluxe Room offers a comfortable and stylish space for solo travelers. Featuring a plush single bed, modern decor, and essential amenities, it's the ideal retreat for both relaxation and productivity.
                     </p>
-                    <div className='text-2xl'>Facilities:</div>
+                    <div className='text-2xl playfair-display-uniquifier'>Facilities:</div>
                     <div className="space-y-4">
                         <ul className="list-disc pl-6">
                             <li>Single bed with premium bedding</li>
@@ -123,12 +123,12 @@ function RoomDetails() {
 
                 <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-30 border-0 shadow-2xl bg-white rounded-lg lg:h-3/4 m-0 lg:mr-8 p-3">
 
-                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">$750/night</div>
-                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Honeymoon Suit</div>
+                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">$750/night</div>
+                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Honeymoon Suit</div>
                     <p >
                         Our Honeymoon Suite is a romantic haven designed for couples looking to celebrate their special moments. With luxurious amenities and an intimate atmosphere, it provides the perfect setting for a memorable stay.
                     </p>
-                    <div className='text-2xl'>Facilities:</div>
+                    <div className='text-2xl playfair-display-uniquifier'>Facilities:</div>
                     <div className="space-y-4">
                         <ul className="list-disc pl-6">
                             <li>King-sized bed with premium linens</li>
@@ -160,12 +160,12 @@ function RoomDetails() {
 
                 <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-30 border-0 shadow-2xl bg-white rounded-lg lg:h-3/4 m-0 lg:ml-8 p-3 ">
 
-                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">$200/night</div>
-                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Economy Double</div>
+                    <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">$200/night</div>
+                    <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Economy Double</div>
                     <p >
                         Our Economy Double Room offers a comfortable and affordable option for couples or friends. With essential amenities and a cozy atmosphere, it provides everything you need for a pleasant stay without compromising on quality.
                     </p>
-                    <div className='text-2xl'>Facilities:</div>
+                    <div className='text-2xl playfair-display-uniquifier'>Facilities:</div>
                     <div className="space-y-4">
                         <ul className="list-disc pl-6">
                             <li>Comfortable double bed with premium bedding</li>
@@ -200,20 +200,20 @@ function RoomDetails() {
 
 
 
-            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1250px] m-auto  aligns-items">
+            <div className="lg:flex justify-center items-center w-full lg:h-[700px] md:h-[1200px] h-[1250px] md:m-auto  aligns-items">
 
-                <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-black rounded-lg lg:h-3/3 m-0 lg:ml-8 p-3 flex flex-col items-center justify-center ">
-                    <div className='m-4 text-6xl font-bold text-blue-400'>
+                <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90 bg-black md:rounded-lg lg:h-3/3 md:m-0 lg:ml-8 md:p-3 flex flex-col items-center justify-center ">
+                    <div className='m-4 text-6xl font-bold text-blue-400 playfair-display-uniquifier'>
                         Hotel Booking
                     </div>
 
 
 
 
-                    <p className='text-slate-500'>Experience something new every moment</p>
+                    <p className='text-slate-500 playfair-display-uniquifier'>Experience something new every moment</p>
 
 
-                    <Icon icon="material-symbols:double-arrow" width="400px" height="400px" color="#60a5fa" className="animate-pulse " />
+                    <Icon icon="material-symbols:double-arrow" color="#60a5fa" className="animate-pulse md:w-[400px] md:h-[400px] w-[300px] h-[300px]" />
 
                 </div>
 

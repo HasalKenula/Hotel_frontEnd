@@ -68,15 +68,15 @@ function Home() {
         } `}>
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
           {/* Logo or Website Title */}
-          <div className="text-2xl font-bold">Marina</div>
+          <div className="text-2xl font-bold text-blue-400">Marina</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-4">
-            <Link to="/" className="hover:text-gray-400">Home</Link>
-            <Link to="/about" className="hover:text-gray-400">About</Link>
-            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
-            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
-            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+            <a href="/" className="hover:text-blue-400">Home</a>
+            <a href="/about" className="hover:text-blue-400">About</a>
+            <a href="/room" className="hover:text-blue-400">Accomodation</a>
+            <a href="/dining" className="hover:text-blue-400">Dining</a>
+            <a href="/contact" className="hover:text-blue-400">Contact</a>
           </div>
 
           {/* Hamburger Icon for Mobile */}
@@ -91,11 +91,11 @@ function Home() {
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white`}>
           <div className="flex flex-col items-center py-4 space-y-4">
-            <Link to="/" className="hover:text-gray-400">Home</Link>
-            <Link to="/about" className="hover:text-gray-400">About</Link>
-            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
-            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
-            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+            <a href="/" className="hover:text-blue-400">Home</a>
+            <a href="/about" className="hover:text-blue-400">About</a>
+            <a href="/room" className="hover:text-blue-400">Accomodation</a>
+            <a href="/dining" className="hover:text-blue-400">Dining</a>
+            <a href="/contact" className="hover:text-blue-400">Contact</a>
           </div>
         </div>
       </nav>
@@ -130,9 +130,9 @@ function Home() {
       <div className='m-5'>
         <Comment />
       </div>
-      
-        <Footer />
-      
+
+      <Footer />
+
 
 
     </div>

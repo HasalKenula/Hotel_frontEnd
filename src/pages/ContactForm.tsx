@@ -7,7 +7,7 @@ function ContactForm() {
     return (
         <div>
             <div className="lg:flex lg:flex-col justify-center items-center w-full lg:h-[300px] md:h-[600px] h-[600px] m-auto  aligns-items ">
-                <div className="flex font-bold justify-center text-slate-500 m-2  mb-12 lg:text-2xl">
+                <div className="flex font-bold justify-center text-slate-500 m-2  mb-12 lg:text-2xl playfair-display-uniquifier">
                     Contact
                 </div>
                 <div className="flex flex-col lg:flex-row  items-start items-center m-2 lg:gap-40">

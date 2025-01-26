@@ -7,12 +7,12 @@ function Comments() {
     return (
         <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1500px] md:h-[1300px] m-auto ">
 
-            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl text-center">
+            <div className="m-6 font-bold lg:text-6xl md:text-4xl text-3xl text-center playfair-display-uniquifier">
                 <p>Our Satisfied Guests says</p>
 
             </div>
 
-            <div className="text-slate-500 lg:mb-16 md:mb-8 mb-4 text-center">
+            <div className="text-slate-500 lg:mb-16 md:mb-8 mb-4 text-center playfair-display-uniquifier">
                 <p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
 
@@ -26,11 +26,11 @@ function Comments() {
                         />
 
                     </div>
-                    <div className="flex font-bold justify-center m-1">
+                    <div className="flex font-bold justify-center m-1 playfair-display-uniquifier">
                         <p> Brian Doe</p>
 
                     </div>
-                    <div className="flex justify-center m-1">
+                    <div className="flex justify-center m-1 playfair-display-uniquifier">
                         <p>Satisfied Customer</p>
                     </div>
                     <div className="flex justify-center ">
@@ -51,11 +51,11 @@ function Comments() {
                         />
 
                     </div>
-                    <div className="flex font-bold justify-center m-1">
+                    <div className="flex font-bold justify-center m-1 playfair-display-uniquifier">
                         <p>Shara Jones </p>
 
                     </div>
-                    <div className="flex justify-center m-1">
+                    <div className="flex justify-center m-1 playfair-display-uniquifier">
                         <p>Satisfied Customer</p>
                     </div>
                     <div className="flex justify-center ">
@@ -78,11 +78,11 @@ function Comments() {
                         />
 
                     </div>
-                    <div className="flex font-bold justify-center m-1">
+                    <div className="flex font-bold justify-center m-1 playfair-display-uniquifier">
                         <p>Nathalie Miller</p>
 
                     </div>
-                    <div className="flex justify-center m-1">
+                    <div className="flex justify-center m-1 playfair-display-uniquifier">
                         <p>Satisfied Customer</p>
                     </div>
                     <div className="flex justify-center ">

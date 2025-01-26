@@ -5,12 +5,12 @@ function Facilities() {
     return (
         <div className="flex flex-col justify-center items-center w-full lg:h-[800px] h-[1600px] md:h-[1200px] m-auto  ">
 
-            <div className="md:m-4 ml-4 mr-4 font-bold lg:text-6xl md:text-4xl  text-blue-400 text-3xl">
+            <div className="md:m-4 ml-4 mr-4 font-bold lg:text-6xl md:text-4xl  text-blue-400 text-3xl playfair-display-uniquifier">
                 <p>Royal Facilities</p>
 
             </div>
 
-            <div className="text-slate-400 md:mb-8 mb-2 text-center">
+            <div className="text-slate-400 md:mb-8 mb-2 text-center playfair-display-uniquifier">
                 <p>Who are in extremely love with eco friendly system.</p>
             </div>
 
@@ -21,7 +21,7 @@ function Facilities() {
                             <Icon icon="lucide-lab:fork-knife" width="40px" height="40px" color="#60a5fa" style={{ strokeWidth: 100 }} />
 
                         </div>
-                        <div className='font-bold  text-xl '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier'>
                             Restaurant
                         </div>
                     </div>
@@ -39,7 +39,7 @@ function Facilities() {
                             <Icon icon="icon-park-outline:riding" width="40px" height="40px" color="#60a5fa" />
 
                         </div>
-                        <div className='font-bold  text-xl '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier'>
                             Sports Club
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Facilities() {
                             <Icon icon="hugeicons:swimming" width="40px" height="40px" color="#60a5fa" />
 
                         </div>
-                        <div className='font-bold  text-xl '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier'>
                             Swimming Pool
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function Facilities() {
                             <Icon icon="material-symbols:directions-car-outline-sharp" width="40px" height="40px" color="#60a5fa" />
 
                         </div>
-                        <div className='font-bold  text-xl '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier'>
                             Rent a Car
                         </div>
                     </div>
@@ -99,7 +99,7 @@ function Facilities() {
                             <Icon icon="map:gym" width="40px" height="40px" color="#60a5fa" />
 
                         </div>
-                        <div className='font-bold  text-xl  '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier '>
                             Gymnesium
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function Facilities() {
                             <Icon icon="material-symbols:wine-bar-outline-rounded" width="40px" height="40px" color="#60a5fa" />
 
                         </div>
-                        <div className='font-bold  text-xl '>
+                        <div className='font-bold  text-xl playfair-display-uniquifier'>
                             Bar
                         </div>
                     </div>

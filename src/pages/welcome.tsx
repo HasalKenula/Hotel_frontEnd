@@ -10,7 +10,7 @@ function Welcome() {
             <div className="lg:w-1/2 lg:p-5  relative w-full  rounded-lg lg:h-2/3 m-0 lg:ml-8 p-3">
 
                 {/* <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">Our Hotel</div> */}
-                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 lg:pb-4">Welcome To  Hotel Marina</div>
+                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 lg:pb-4 playfair-display-uniquifier">Welcome To  Hotel Marina</div>
                 <p className='lg:leading-6'>
                     Experience comfort and luxury like never before. Nestled in the heart of Matara,
                     our hotel offers a perfect blend of modern amenities and personalized service.

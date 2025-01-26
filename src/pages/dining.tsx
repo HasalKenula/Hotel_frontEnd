@@ -26,8 +26,8 @@ function Dining() {
 
             <div className="lg:w-1/2 lg:p-5  relative w-full  rounded-lg lg:h-2/3 m-0 lg:mr-8 p-3">
 
-                <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">Our resturent</div>
-                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Dining & Drinks</div>
+                <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">Our resturent</div>
+                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Dining & Drinks</div>
                 <p className=' lg:leading-6'>
                     "Indulge in a delightful dining experience with our carefully curated menu featuring fresh,
                     seasonal ingredients. From delectable appetizers to signature mains and irresistible desserts,

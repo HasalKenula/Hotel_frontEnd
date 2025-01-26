@@ -8,8 +8,8 @@ function Swimming() {
 
             <div className="lg:w-1/2 lg:p-5  relative w-full bg-opacity-90  rounded-lg lg:h-2/3 m-0 lg:ml-8 p-3">
 
-                <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4">Our Pool</div>
-                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8">Swimming Pool</div>
+                <div className="lg:text-xl font-bold text-sm  md:text-xl text-slate-400 pt-4 playfair-display-uniquifier">Our Pool</div>
+                <div className="lg:text-2xl font-bold text-2xl  md:text-xl text-blue-400 pt-2 pb-8 playfair-display-uniquifier">Swimming Pool</div>
                 <p className='lg:leading-6'>
                     "Relax and unwind in our stunning swimming pool, designed for both leisure and recreation.
                     Whether you're taking a refreshing dip, enjoying the sun on the deck, or simply soaking in the

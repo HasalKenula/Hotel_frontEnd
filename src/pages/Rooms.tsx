@@ -46,19 +46,19 @@ function Rooms() {
 
   return (
     <div>
-      <div className="relative w-full h-screen overflow-hidden">
+      <div className="relative w-full h-[400px] overflow-hidden">
 
         <img src={Single} className="object-cover w-full h-full" alt="Double room" />
 
       </div>
-      <div className="absolute top-0 left-0 w-full h-screen bg-black opacity-50"></div>
+      <div className="absolute top-0 left-0 w-full h-[400px] bg-black opacity-50"></div>
 
       {/* Navbar */}
       <nav className={`fixed   top-0 left-0 w-full  text-white py-4 z-10 ${isFixed ? "bg-black text-white" : "bg-transparent text-white"
         } `}>
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
           {/* Logo or Website Title */}
-          <div className="text-2xl font-bold">Marina</div>
+          <div className="text-2xl font-bold text-blue-400">Marina</div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-4">
@@ -83,19 +83,19 @@ function Rooms() {
         <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white`}>
           <div className="flex flex-col items-center py-4 space-y-4">
             {/* <Link to="/" className="hover:text-gray-400">Home</Link> */}
-            <a href="/" className="hover:text-yellow-400">Home</a>
-            <Link to="/about" className="hover:text-gray-400">About</Link>
-            <Link to="/room" className="hover:text-gray-400">Accomodation</Link>
-            <Link to="/dining" className="hover:text-gray-400">Dining</Link>
-            <Link to="/contact" className="hover:text-gray-400">Contact</Link>
+            <a href="/" className="hover:text-blue-400">Home</a>
+            <a href="/about" className="hover:text-blue-400">About</a>
+            <a href="/room" className="hover:text-blue-400">Accomodation</a>
+            <a href="/dining" className="hover:text-blue-400">Dining</a>
+            <a href="/contact" className="hover:text-blue-400">Contact</a>
           </div>
         </div>
       </nav>
 
-      <div className="absolute top-0 left-0 w-full  h-screen flex flex-col items-center justify-center text-white px-4">
+      <div className="absolute top-0 left-0 w-full  h-[400px] flex flex-col items-center justify-center text-white px-4">
         {/* Title */}
         <div className="md:text-9xl text-7xl font-bold mb-4">
-          <span className='md:text-5xl text-3xl'>Hotel </span> Marina
+          <span className='md:text-5xl text-3xl'>Hotel </span> Rooms
         </div>
         {/* Caption */}
         <div className="text-xl font-light">
