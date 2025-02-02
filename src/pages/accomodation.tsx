@@ -29,7 +29,7 @@ function Accomodation() {
                     </div>
                     <div className="flex justify-center m-2">
                         <a href='/room'>
-                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                            <button className="bg-blue-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
                                 Book Now
                             </button>
                         </a>
@@ -50,7 +50,7 @@ function Accomodation() {
                     </div>
                     <div className="flex justify-center m-2">
                         <a href='/room'>
-                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                            <button className="bg-blue-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
                                 Book Now
                             </button>
                         </a>
@@ -70,7 +70,7 @@ function Accomodation() {
                     </div>
                     <div className="flex justify-center m-2">
                         <a href='/room'>
-                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                            <button className="bg-blue-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
                                 Book Now
                             </button>
                         </a>
@@ -92,7 +92,7 @@ function Accomodation() {
                     </div>
                     <div className="flex justify-center m-2">
                         <a href='/room'>
-                            <button className="bg-black text-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
+                            <button className="bg-blue-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black transition duration-200">
                                 Book Now
                             </button>
                         </a>
