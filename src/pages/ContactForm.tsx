@@ -1,6 +1,5 @@
 import SubContactForm from './SubContactForm';
 import ContactMap from "./ContactMap";
-import ContactPage from './Contactpage';
 import { Icon } from "@iconify/react";
 import Footer from './Footer';
 function ContactForm() {

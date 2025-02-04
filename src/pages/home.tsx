@@ -8,8 +8,6 @@ import { useEffect, useState } from 'react';
 import Gallary from './two.tsx';
 import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
-import { Link } from "react-router-dom";
-
 
 
 function Home() {

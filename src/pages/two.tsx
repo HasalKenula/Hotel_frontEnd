@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import Activity1 from '../assets/activity1.jpg';
 import Activity2 from '../assets/activity2.jpg';
 import Activity3 from '../assets/activity3.jpg';

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Reception from '../assets/reception.jpg'
 import { fadeIn } from '../types/FadeIn';
 import { motion } from 'framer-motion';
@@ -52,13 +51,6 @@ function Welcome() {
 
 
         </div>
-
-
-
-
-
-
-
 
     )
 }

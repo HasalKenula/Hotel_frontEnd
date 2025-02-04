@@ -5,7 +5,7 @@ import History from '../assets/history.jpg'
 import Manager1 from '../assets/manager1.jpg'
 import Manager2 from '../assets/manager4.jpg'
 import Manager3 from '../assets/manager3.jpg'
-import { Link } from 'react-router-dom';
+
 
 
 

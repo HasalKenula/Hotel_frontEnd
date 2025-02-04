@@ -1,17 +1,6 @@
-import Dining from "./dining.tsx";
-import Facilities from "./facilities.tsx";
-import Swimming from "./swimming.tsx";
-import One from './welcome.tsx'
-import Two from './accomodation.tsx'
-import videoFile from '../assets/v.mp4'
 import { useEffect, useState } from 'react';
-import Gallary from './two.tsx';
-import Comment from './Comments.tsx'
-import Footer from "./Footer.tsx";
 import Single from '../assets/single.jpg'
 import ContactForm from "./ContactForm.tsx";
-import { Link } from "react-router-dom";
-
 
 function Contact() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

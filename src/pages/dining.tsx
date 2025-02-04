@@ -1,6 +1,7 @@
 import Table from '../assets/table.jpg';
 import { fadeIn } from '../types/FadeIn';
 import { motion } from 'framer-motion';
+
 function Dining() {
     return (
         <div className="lg:flex justify-center items-center w-full lg:h-[600px] md:h-[1000px] h-[850px] m-auto ">

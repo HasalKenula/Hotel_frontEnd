@@ -2,6 +2,7 @@ import Double from '../assets/double.jpg'
 import Single from '../assets/single.jpg'
 import Honeymoon from '../assets/honeymoon.jpg'
 import Economy from '../assets/economy.jpg'
+
 function Accomodation() {
     return (
         <div className="flex flex-col justify-center items-center w-full lg:h-[700px] h-[1800px] md:h-[2150px] m-auto ">
@@ -24,7 +25,7 @@ function Accomodation() {
                         <p> Double Deluxe Room</p>
 
                     </div>
-                    <div className="flex justify-center m-2">
+                    <div className="flex justify-center m-2 text-slate-500">
                         <p>$250/night</p>
                     </div>
                     <div className="flex justify-center m-2">
@@ -45,7 +46,7 @@ function Accomodation() {
                         <p>Single Deluxe Room</p>
 
                     </div>
-                    <div className="flex justify-center  m-2">
+                    <div className="flex justify-center  m-2 text-slate-500">
                         <p> $200/night</p>
                     </div>
                     <div className="flex justify-center m-2">
@@ -65,7 +66,7 @@ function Accomodation() {
                     <div className="flex font-bold justify-center  m-2">
                         <p>Honeymoon Suit</p>
                     </div>
-                    <div className="flex justify-center  m-2">
+                    <div className="flex justify-center  m-2 text-slate-500">
                         <p>$750/night</p>
                     </div>
                     <div className="flex justify-center m-2">
@@ -87,7 +88,7 @@ function Accomodation() {
 
 
                     </div>
-                    <div className="flex justify-center  m-2">
+                    <div className="flex justify-center  m-2 text-slate-500">
                         <p>$200/night</p>
                     </div>
                     <div className="flex justify-center m-2">

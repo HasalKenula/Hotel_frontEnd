@@ -1,5 +1,3 @@
-import Welcome1 from '../assets/welcome1.jpg'
-import Welcome2 from '../assets/welcome2.jpg'
 import Double from '../assets/double.jpg'
 import Single from '../assets/single.jpg'
 import Honeymoon from '../assets/honeymoon.jpg'

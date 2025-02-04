@@ -5,7 +5,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Double from '../assets/double.jpg'
 import Main1 from '../assets/dining_main/main1.jpg'
 import Main2 from '../assets/dining_main/main2.jpg'
 import Main3 from '../assets/dining_main/main3.jpg'

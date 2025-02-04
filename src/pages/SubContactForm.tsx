@@ -1,8 +1,5 @@
-import { useEffect, useState } from "react";
-
+import { useState } from "react";
 import axios from "axios";
-import SubContactFormType from "../types/SubContactForm";
-
 
 function SubContactForm(){
 
@@ -49,11 +46,7 @@ function SubContactForm(){
   
 
     return(
-        
-        
-
-        
-
+                
         <div className="w-[550px] border border-slate-200 px-4 py-3 rounded-lg shadow-2xl ">
            
 
@@ -69,14 +62,7 @@ function SubContactForm(){
 
             <label className="text-sm text-slate-600 block mb-3">Enter Subject</label>
             <input type="text" className="block w-full p-2 border border-slate-300 rounded-lg text-slate-600 text-sm mb-4 " value={subject}  onChange={handleSubject}/>
-
-           
-
-
-           
-
-
-
+                     
             <button className="py-2 px-3 rounded-lg bg-slate-800 text-white hover:bg-slate-950" onClick={send}>Send</button>
 
         </div>

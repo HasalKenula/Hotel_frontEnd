@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import BookingType from "../types/BookingTypes";
+import { useState } from "react";
 import axios from "axios";
 
 

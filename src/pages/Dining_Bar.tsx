@@ -1,19 +1,7 @@
-import Dining from "./dining.tsx";
-import Facilities from "./facilities.tsx";
-import Swimming from "./swimming.tsx";
-import One from './welcome.tsx'
-import Two from './accomodation.tsx'
-import videoFile from '../assets/v.mp4'
 import { useEffect, useState } from 'react';
-import Gallary from './two.tsx';
-import Comment from './Comments.tsx'
 import Footer from "./Footer.tsx";
 import MainMenue from '../assets/MainMenu.jpg'
-import ContactForm from "./ContactForm.tsx";
 import FullWidthTabs from "./MenuTab.tsx";
-import { Link } from "react-router-dom";
-
-
 
 function Dining_Bar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

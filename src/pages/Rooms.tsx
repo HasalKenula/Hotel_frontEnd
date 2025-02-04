@@ -1,17 +1,6 @@
-import Dining from "./dining.tsx";
-import Facilities from "./facilities.tsx";
-import Swimming from "./swimming.tsx";
-import One from './welcome.tsx'
-import Two from './accomodation.tsx'
 import Single from '../assets/double.jpg'
 import { useEffect, useState } from 'react';
-import Gallary from './two.tsx';
-import Comment from './Comments.tsx'
-import Footer from "./Footer.tsx";
 import RoomDetails from "./RoomDetails.tsx";
-import { Link } from "react-router-dom";
-
-
 
 function Rooms() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
